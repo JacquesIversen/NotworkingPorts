@@ -1,6 +1,10 @@
 import css from './App.module.css';
 import Clock from './components/Clock';
 import Content from './components/Contens';
+import ControlledForm from './components/ControlledForm';
+import LifeCyclesCDM from './components/LifeCyclesCDM';
+import LifeCyclesCDU from './components/LifeCyclesCDU';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
 import NavBarForm from './components/NavBarForm';
 import RenderingLists from './components/RenderingLists';
 import Sidebar from "./components/Sidebar";
@@ -10,12 +14,17 @@ function App() {
   return (
     <div className={css.App}>
       {/* Add your components here */}
-      <Sidebar /> 
+{/*       <Sidebar />  */}
       <Apps />
       <NavBarForm />
-      <Clock />
+{/*       <Clock />
       <RenderingLists />
-      <Content />
+      <LifeCyclesCDM />
+      <LifeCyclesCDU />
+      <LifeCyclesCWU /> */}
+      <ControlledForm />
+{/*       <Content /> */}
+
     </div>
   );
 }
