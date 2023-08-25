@@ -1,4 +1,5 @@
 import css from './App.module.css';
+import Clock from './components/Clock';
 import Content from './components/Contens';
 import NavBarForm from './components/NavBarForm';
 import RenderingLists from './components/RenderingLists';
@@ -12,6 +13,7 @@ function App() {
       <Sidebar /> 
       <Apps />
       <NavBarForm />
+      <Clock />
       <RenderingLists />
       <Content />
     </div>
