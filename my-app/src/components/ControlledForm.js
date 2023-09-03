@@ -4,14 +4,16 @@ export class ControlledForm extends Component {
     constructor(props) {
       super(props)
     
-      this.state = {
-         name: ''
-      }
+      this.state = {name: ''};
+
+      this.handleNameChange = this.handleNameChange.bind(this);
+      
     }
 
     handleNameChange = (event) => {
-        let newValue = event.target.value
-        console.log(newValue);
+        this.setState({
+            name: event.target.value
+        })
     }
 
     render() {
