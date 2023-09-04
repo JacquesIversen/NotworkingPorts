@@ -7,6 +7,7 @@ import LifeCyclesCDU from './components/LifeCyclesCDU';
 import LifeCyclesCWU from './components/LifeCyclesCWU';
 import NavBarForm from './components/NavBarForm';
 import RenderingLists from './components/RenderingLists';
+import SearchBar from './components/SearchBar';
 import Sidebar from "./components/Sidebar";
 import Apps from './components/StatefulGreeting';
 
@@ -23,6 +24,7 @@ function App() {
       <LifeCyclesCDU />
       <LifeCyclesCWU /> */}
       <ControlledForm />
+      <SearchBar />
 {/*       <Content /> */}
 
     </div>
