@@ -13,25 +13,27 @@ import RenderingLists from './components/RenderingLists';
 import SearchBar from './components/SearchBar';
 import Sidebar from "./components/Sidebar";
 import Apps from './components/StatefulGreeting';
+import UseStateWithArrays from './components/UseStateWithArrays';
 
 function App() {
   return (
     <div className={css.App}>
       {/* Add your components here */}
-{/*       <Sidebar />  */}
+{/*       <Sidebar /> 
       <Apps />
       <NavBarForm />
-{/*       <Clock />
+      <Clock />
       <RenderingLists />
       <LifeCyclesCDM />
       <LifeCyclesCDU />
-      <LifeCyclesCWU /> */}
-{/*       <ControlledForm />
-      <SearchBar /> */}
-{/*       <HooksCounter />
-      <ClassCounter /> */}
+      <LifeCyclesCWU />
+      <ControlledForm />
+      <SearchBar />
+      <HooksCounter />
+      <ClassCounter />
       <ControlledFormHooks />
-{/*       <Content /> */}
+      <Content /> */}
+      <UseStateWithArrays />
 
     </div>
   );
