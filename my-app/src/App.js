@@ -1,7 +1,10 @@
 import css from './App.module.css';
+import ClassCounter from './components/ClassCounter';
 import Clock from './components/Clock';
 import Content from './components/Contens';
 import ControlledForm from './components/ControlledForm';
+import ControlledFormHooks from './components/ControlledFormHooks';
+import HooksCounter from './components/HooksCounter';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
 import LifeCyclesCDU from './components/LifeCyclesCDU';
 import LifeCyclesCWU from './components/LifeCyclesCWU';
@@ -23,8 +26,11 @@ function App() {
       <LifeCyclesCDM />
       <LifeCyclesCDU />
       <LifeCyclesCWU /> */}
-      <ControlledForm />
-      <SearchBar />
+{/*       <ControlledForm />
+      <SearchBar /> */}
+{/*       <HooksCounter />
+      <ClassCounter /> */}
+      <ControlledFormHooks />
 {/*       <Content /> */}
 
     </div>
